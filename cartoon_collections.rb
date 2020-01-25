@@ -17,7 +17,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0
   while i < cheese_types.size
-    if array.include?(cheese_types[0])
+    if array.include?(cheese_types[i])
       return cheese_types[0]
     else
       return nil
